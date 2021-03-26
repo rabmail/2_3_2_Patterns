@@ -46,7 +46,7 @@ public class TestSet {
     }
 
     public static User regUser(String status) {
-        String login = faker.name().username();
+        String login = faker.name().username();;
         String password = faker.internet().password();
         User registration = new User(login, password, status);
         newUser(registration);
